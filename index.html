@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Mass Training & Job Creation Program</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <img id="saylani" src="Untitled.png" alt="">
+    <form action="#">
+        <table style="width: 1000px;">
+            <tr>
+                <td>
+                    <p id="a">Select Your Course *</p>
+                    <select id="course" name="Course">
+                        <option value="select">Select Course</option>
+                        <option value="IT Esential Fsd">IT Essential Fsd</option>
+                    </select>
+                </td>
+                <td>
+                    <p id="b"> Select Batch </p>
+                    <select id="batch" name="Batch">
+                        <option value="select">6</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="Name">
+                        <input type="text" name="yourname" placeholder="Your Name*" id="name">
+                        <p id="c"> Max Allowed 18 Characters</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="dateofbirth">
+                        <p id="d">Date Of Birth*</p>
+                        <input type="date" name="dateofbirth" id="date">
+                    </div>
+                </td>
+                <td>
+                    <div id="Age">
+                        <p id="e">Age*</p>
+                        <input type="number" name="age" id="age">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="gender">
+            <p id="GenderLine"> Gender*</p>
+            <input type="radio" name="gender" id="genderm" value="Male">Male
+            <input type="radio" name="gender" id="genderf" value="Female">Female
+        </div>
+        <div id="CNIC">
+            <input type="text" name="CNIC/B Form" placeholder="CNIC/B-Form*" id="BForm">
+            <p id="eg">e.g 4220123456789</p>
+        </div>
+        <div id="Father">
+            <input type="text" name="Fathername" placeholder="Father's Name*" id="Fn">
+        </div>
+        <div id="gCNIC">
+            <input type="text" name="CNIC/B Form" placeholder="Father's/Guardian's CNIC/B-Form*" id="gBForm">
+            <p id="gc">e.g 4220123456789</p>
+        </div>
+        <div id="Address">
+            <input type="text" name="address" placeholder="Full And Permenant Address*" id="address">
+        </div>
+        <div id="Cell">
+            <input type="text" name="CNIC/B Form" placeholder="Cell Number*" id="cn">
+            <p id="n">e.g 03301234567</p>
+        </div>
+        <div id="Email">
+            <input type="email" placeholder="Email*" id="email">
+            <p id="ed"> Provide a valid, accessible email that we will use to contact you. </p>
+        </div>
+        <div id="LastQ">
+            <p id="Qualification"> Last Qualification* </p>
+            <input type="radio" name="Last Qualification" value="None"> None
+            <input type="radio" name="Last Qualification" value="Matric"> Matric
+            <input type="radio" name="Last Qualification" value="Intermidiate"> Intermidiate
+            <input type="radio" name="Last Qualification" value="Bachelor"> Bachelor
+            <input type="radio" name="Last Qualification" value="Master"> Master
+            <input type="radio" name="Last Qualification" value="PhD"> PhD
+        </div>
+        <div id="picture">
+            <p id="PictureLine">Upload your recent image (face front, without glasses and with a single-colored
+                background) *</p>
+            <input type="file" name="Picture" required="JPEG">
+            <p id="f">Only png or jpg with size &lt; 1mb is allowed</p>
+        </div>
+        <div id="Availibility">
+            <p id="availLine">Drag and drop class timings mentioned below as per your availibility and priority.</p>
+            <table id="tablepriority" style="width: 1200">
+                <tr>
+                    <td>Priority # 1</td>
+                    <td>Mon, Tue & Wed. <br> 3pm to 5pm</td>
+                </tr>
+            </table>
+        </div>
+        <div id="undertacking">
+            <p id="du">Declaration Undertacking</p>
+            <ol>
+                <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best
+                    of my knowledge. Further, I will abide by my all the establish and future regulation and policies of
+                    SWIT</li>
+                <li>I hereby accept the responsibilites of the good conduct and guarantee that I will not be involved in
+                    any other activity, polical or ethic, but learning during my stay in the program.</li>
+                <li>Defiance will render my admission cancelled at any point in time.</li>
+                <li>Upon completion of course, I will complete the required project by SWIT.</li>
+            </ol>
+        </div>
+        <input id="agree" type="checkbox" value="I agree with above terms"> <span> I agree with above terms. </span>  <br>
+        <img id="robot" src="robot.png" alt=""> <br>
+        <button id="submit"> SUBMIT </button>
+    </form>
+</body>
+</html>

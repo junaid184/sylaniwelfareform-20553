@@ -1,0 +1,94 @@
+
+#saylani {
+    width: 1255px;
+}
+#course, #batch, #date, #age{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+    width: 500px;
+}
+#a,#b,#c,#d,#e, #GenderLine, #eg, #gc, #n, #ed, #Qualification, #PictureLine, #f, #availLine, #du {
+    color: rgb(177, 176, 176);
+    font-size: 16pt;
+}
+#a:hover,#b:hover,#d:hover,#e:hover {
+    color: blue;
+}
+form {
+    margin-top: 0%;
+    margin: 100px;
+    margin-bottom: 0%;
+}
+#tablepriority {
+    width: 1050px;
+    font-size: 16pt;
+    box-shadow: grey 1px 1px 5px;
+}
+#undertacking, span {
+    font-size: 16pt;
+}
+#agree {
+    display: inline-block;
+    width: 5mm;
+    height: 5mm;
+}
+#submit {
+    background-color: rgb(71, 71, 179);
+    color: white;
+    width: 70px;
+    height: 30px;
+}
+#name {
+    margin-top: 1cm;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+    width: 1010px;
+}
+#BForm {
+    margin-top: 1cm;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+    width: 1010px;
+}
+#Fn {
+    margin-top: 1cm;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+    width: 1010px;
+}
+#gBForm {
+    margin-top: 1cm;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+    width: 1010px;
+}
+#address {
+    margin-top: 1cm;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+    width: 1010px;
+}
+#cn {
+    margin-top: 1cm;
+    width: 1010px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+}
+#email {
+    margin-top: 1cm;
+    width: 1010px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16pt;
+}
+#LastQ {
+    font-size: 16pt;
+}
